@@ -1,0 +1,17 @@
+{
+  "name": "logfilter",
+  "version": "0.0.0",
+  "description": "Distributted log filter",
+  "main": "master.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruno291289/logfilter.git"
+  },
+  "author": "Bruno Eneas",
+  "homepage": "https://github.com/bruno291289/logfilter",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "config": "^1.16.0",
+    "express": "^4.13.3"
+  }
+}

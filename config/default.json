@@ -1,0 +1,18 @@
+{
+	"master": {
+		"address": "127.0.0.1",
+		"port": 3000,
+		"filtereddir": "./dirs/filtereddir",
+		"service": "/checkUserInfos"
+	},
+	"slave": {
+		"port": 3001,
+		"dir": "./dirs/serv1",
+		"match" : {
+			"startuserid": "\\\"userid=",
+			"enduserid": "\\\"",
+			"startdatetime": "\\[",
+			"enddatetime": "\\]"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"slave": {
+		"port": 3002,
+		"dir": "./dirs/serv2"
+	}
+}
